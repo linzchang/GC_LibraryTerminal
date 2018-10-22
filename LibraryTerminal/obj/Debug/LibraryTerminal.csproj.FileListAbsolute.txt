@@ -1,0 +1,7 @@
+\\mi\dfs\users\LChang\Desktop\GrandCircus\LibraryTerminal\LibraryTerminal\obj\Debug\LibraryTerminal.csprojAssemblyReference.cache
+\\mi\dfs\users\LChang\Desktop\GrandCircus\LibraryTerminal\LibraryTerminal\obj\Debug\LibraryTerminal.csproj.CoreCompileInputs.cache
+\\mi\dfs\users\LChang\Desktop\GrandCircus\LibraryTerminal\LibraryTerminal\bin\Debug\LibraryTerminal.exe.config
+\\mi\dfs\users\LChang\Desktop\GrandCircus\LibraryTerminal\LibraryTerminal\bin\Debug\LibraryTerminal.exe
+\\mi\dfs\users\LChang\Desktop\GrandCircus\LibraryTerminal\LibraryTerminal\bin\Debug\LibraryTerminal.pdb
+\\mi\dfs\users\LChang\Desktop\GrandCircus\LibraryTerminal\LibraryTerminal\obj\Debug\LibraryTerminal.exe
+\\mi\dfs\users\LChang\Desktop\GrandCircus\LibraryTerminal\LibraryTerminal\obj\Debug\LibraryTerminal.pdb
