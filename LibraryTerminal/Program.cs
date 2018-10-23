@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace LibraryTerminal
 
-    //NEED TO FIX:  Search, Sort by Author  Need to build return function
+   
 {
     //Console program that allows a user to search a library catalog and reserve books
-
-
-    //Return a book
 
     class Program
     {
@@ -26,10 +23,10 @@ namespace LibraryTerminal
             List<string> book1 = new List<string> { "Harry Potter and the Sorcerer's Stone", "J.K. Rowling", CHECKED_IN,};
             List<string> book2 = new List<string> { "The Hobbit", "J.R.R. Tolkein", CHECKED_IN,};
             List<string> book3 = new List<string> { "The Girl with the Dragon Tattoo", "Stieg Larsson", CHECKED_OUT,};
-            List<string> book4 = new List<string> { "The Velveteen Rabbit", "Margery Williams", CHECKED_IN,};
+            List<string> book4 = new List<string> { "The Velveteen Rabbit", "Margery Williams", CHECKED_OUT,};
             List<string> book5 = new List<string> { "Howl's Moving Castle", "Diana Wynne Jones", CHECKED_OUT,};
             List<string> book6 = new List<string> { "The Hunger Games", "Suzanne Collins", CHECKED_IN,};
-            List<string> book7 = new List<string> { "Pride and Prejudice", "Jane Austen", CHECKED_IN,};
+            List<string> book7 = new List<string> { "Pride and Prejudice", "Jane Austen", CHECKED_OUT,};
             List<string> book8 = new List<string> { "A Good Earth", "Pearl S. Buck", CHECKED_IN,};
             List<string> book9 = new List<string> { "Harry Potter and the Goblet of Fire", "J.K. Rowling", CHECKED_OUT,};
             List<string> book10 = new List<string> { "The Lion, The Witch, and The Wardrobe", "C. S. Lewis", CHECKED_IN,};
@@ -70,6 +67,7 @@ namespace LibraryTerminal
                         break;
                     //Return
                     case "2":
+                        DisplayLibrary(myLibrary);
                         ReturnBook(myLibrary);
                         break;
                     default:
